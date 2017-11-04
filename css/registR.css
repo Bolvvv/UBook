@@ -1,0 +1,17 @@
+
+#regist-line{
+    border-bottom:4px solid #000000;
+}
+#registofinput,#registofinputpass,#registofinputsurepass,#mailinput,#phoneinput
+{
+    width:90%;
+    font-size: medium;
+}
+#registofname,#registofpass,#registofsurepass,#mail,#phone{
+    font-size: 20px;
+}
+#registbutton{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 170px;
+}

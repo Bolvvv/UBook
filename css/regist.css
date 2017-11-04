@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+#regist{
+    position:relative;
+    width:100%;
+    height:1000px;
+}
+#title{
+    position:absolute;
+    left:50%;
+    margin-left:-157.49px;
+    top:10%;
+}
+h1{
+    margin: 0;
+}
+#registbody{
+    position:absolute;
+    width: 600px;
+    height:600px;
+    margin-left: -300px;
+    top:20%;
+    left:50%;
+    background-color: rgba(76,229,124,0.6);
+}
+#up
+{
+    width:100%;
+    height: auto;
+    background-color: rgba(105,153,229,0.6);
+}
+#up ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#up ul li{
+    float:left;
+}
+#up ul li a{
+    text-decoration:none;
+    font-size: 50px;
+    margin: 20px;
+}
+/*分界线*/

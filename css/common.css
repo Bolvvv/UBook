@@ -1,0 +1,335 @@
+.head{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f6f5;
+}
+a{
+    text-decoration: none;
+}
+#headup{
+    margin: 0 auto;
+    width:1400px;
+}
+#headimg{
+    height: 50px;
+    width:40%;
+    float: left;
+}
+#welcome{
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    margin:16px 0 16px 50px ;
+}
+#headright{
+    float: left;
+    height:50px;
+    width:60%;
+}
+#headrightinfor
+{
+    height: 30px;
+    width:500px;
+    margin: 10px 20px 10px 200px;
+    padding:5px 0 5px 0;
+}
+.head ul{
+    list-style-type: none;
+}
+.head ul li{
+    float: left;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+.head ul li a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.two{
+    margin: 0 auto;
+    width: 1400px;
+    height:200px;
+}
+#twoimg{
+    height: 150px;
+    width:300px;
+    float: left;
+    overflow: hidden;
+    margin: 25px 0 25px 100px;
+}
+#twosearch{
+    position: relative;
+    margin-left:500px ;
+    float: left;
+    height:200px;
+    width: auto;
+}
+#search{
+    position: relative;
+    margin:65px 0;
+    height:70px;
+    width:400px;
+    background-color: #abced4;
+    border-radius: 15px;
+}
+#searchframe{
+    position: relative;
+    margin:10px 0 10px 10px;
+    height:50px;
+    width: 300px;
+    float: left;
+}
+#searchbutton{
+    position: relative;
+    float:left;
+    margin: 10px 0 10px 0;
+    width: 80px;
+    height: 50px;
+}
+.three,#five{
+    margin: 0 auto;
+    width: 1400px;
+    height: 20px;
+    background-color: #c7c7c7;
+}
+.four{
+    margin: 0 auto;
+    width: 1400px;
+    height:500px;
+}
+#classify{
+    position: relative;
+    float: left;
+    width:350px;
+    height: 500px;
+    background-color: #F5F5F5;
+}
+#bookclassifybox{
+    position: relative;
+    height: 30px;
+    width: 350px;
+}
+#bookclassify{
+    position: relative;
+    margin: 0 auto;
+    width:200px;
+    height: 30px;
+    text-align: center;
+    background-color: #94ccb3;
+}
+.classifydiv{
+    margin: 0 auto;
+    position: relative;
+    width: 300px;
+    height: 104px;
+}
+.classifydivtitle{
+    position: relative;
+    height:30px;
+    width: 100px;
+}
+.classifydivinfor{
+    position: relative;
+    margin: 0 auto;
+    width:300px;
+    height: 70px;
+}
+.classifydivinfor a{
+    font-size: 18px;
+    margin-right: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.classifydivline{
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 2px;
+    background-color: #000000;
+}
+#advertisingnotice{
+    position: relative;
+    float: left;
+    height: 250px;
+    width: 1050px;
+}
+#advertising{
+    position: relative;
+    float: left;
+    height: 250px;
+    width: 700px;
+    background-color: #85c6fd;
+}
+#notice{
+    position: relative;
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-color: #F5F5F5;
+}
+#noticetitle{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 30px;
+    background-color: #77aa7e;
+    text-align: center;
+}
+.noticebox{
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 330px;
+    height: 35px;
+    text-decoration: none;
+}
+.noticebox a{
+    font-size: 20px;
+    margin-right: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.noticeline{
+    position: relative;
+    float: left;
+    height: 2px;
+    width:330px;
+    background-color: black;
+}
+#recommend{
+    position: relative;
+    float: left;
+    width: 1050px;
+    height: 250px;
+}
+#recommendline{
+    position: relative;
+    float: left;
+    height: 10px;
+    width: 1050px;
+    background-color: #83d684;
+}
+#recommendtitle{
+    position: relative;
+    float: left;
+    height: 27px;
+    width: 1050px;
+}
+#recommendtitleline,#newbooktitleline{
+    position: relative;
+    float: left;
+    height: 3px;
+    width: 300px;
+    background-color: #000000;
+}
+#recommendbook{
+    position: relative;
+    float: left;
+    margin:0 25px;
+    height: 210px;
+    width: 1000px;
+
+}
+.bookbox{
+    position: relative;
+    float: left;
+    width:200px;
+    height:210px;
+}
+.book{
+    position: relative;
+    float: left;
+    width:140px;
+    height: 160px;
+    margin:10px 30px 0 30px;
+    background-color: #67b168;
+}
+.bookname{
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+}
+#six{
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    height:450px;
+}
+#newbooktitle{
+    position: relative;
+    float: left;
+    height: 27px;
+    width: 1400px;
+}
+#newbook{
+    position: relative;
+    float: left;
+    width: 1200px;
+    height: 420px;
+    margin:0 100px ;
+}
+#seven{
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-color: #f5f6f5;
+}
+#about
+{
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    height:100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#bottomabout{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: auto;
+    margin: 15px 0 10px 300px;
+
+}
+#bottomabout ul{
+    list-style-type: none;
+}
+#bottomabout ul li{
+    float: left;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+#bottomabout ul li a{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+#bottomafriend{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: auto;
+    margin: 0 0 15px 450px;
+}
+
+#bottomafriend ul{
+    list-style-type: none;
+}
+#bottomafriend ul li{
+    float: left;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+#bottomafriend ul li a{
+    cursor: pointer;
+    text-decoration: none;
+
+}

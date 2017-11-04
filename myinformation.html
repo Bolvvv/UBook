@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>我的信息</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/myinformation.css">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#inforone li:eq(0) a").tab("show")
+            
+        })
+    </script>
+</head>
+<body>
+<div class="head">
+    <div id="headup">
+        <div id="headimg">
+            <div id="welcome">
+                欢迎登陆UBook&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">主页</a>
+            </div>
+        </div>
+        <div id="headright">
+            <div id="headrightinfor">
+                <ul>
+                    <li><a href="myinformation.html">Bolvvv</a></li>
+                    <li><a href="sell1.html">我要卖</a></li>
+                    <li><a>购物车</a></li>
+                    <li><a>我的订单</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="inforhead">
+    <div style="width: 600px;height: 100px;margin-top: 100px;" class="common">
+        <div class="common" style="width:100px;height: 100px;margin-left:100px;background-color: #3c763d"><img src="img/timg.jpg" style="border-radius:15px;"/></div>
+        <div class="common" style="width:200px;height: 50px;margin-right: 200px"><span style="font-size: 30px">&nbsp;&nbsp;&nbsp;Bolvvv</span></div>
+        <div class="common" style="width: 400px;height: 50px;"><span style="font-size: 20px">&nbsp;&nbsp;&nbsp;做网页真累啊</span></div>
+</div>
+</div>
+<div class="tab-content">
+<div id="inforone">
+    <ul class="nav nav-tabs">
+        <li style="width: 200px">
+            <a href="#myinfor" data-toggle="tab" style="font-size: 20px">我的信息</a>
+        </li>
+        <li><a href="#myshoppingcar" data-toggle="tab" style="font-size: 20px">购物车</a></li>
+        <li><a href="#ios" data-toggle="tab" style="font-size: 20px">我的订单</a></li>
+    </ul>
+</div>
+<div class="tab-content">
+<div class="tab-pane fade in active" id="myinfor">
+    <div style="width: 800px;height: 500px;margin-top:40px;margin-left:40px;float: left;border: 4px solid #66afe9;border-radius:15px;" >
+        <div class="myinfor-box">
+            <span style="font-size: 20px">&nbsp;&nbsp;昵称：</span><span style="font-size: 20px">Bolvvv</span>
+        </div>
+        <div class="myinfor-box">
+            <span style="font-size: 20px">&nbsp;&nbsp;登陆账号：</span><span style="font-size: 20px">605725874</span>
+        </div>
+        <div id="description">
+            <span style="font-size: 20px;float: left">&nbsp;&nbsp;个人说明：</span><input type="text" class="form-control" style="width: 400px;height: 100px;float: left">
+        </div>
+        <div class="myinfor-box">
+            <span style="font-size: 20px">&nbsp;&nbsp;性别：</span><span style="font-size: 20px">男</span>
+        </div>
+        <div class="myinfor-box">
+            <span style="font-size: 20px">&nbsp;&nbsp;出生日期：</span><span style="font-size: 20px">2017/1/1</span>
+        </div>
+        <div class="myinfor-box">
+            <span style="font-size: 20px">&nbsp;&nbsp;所在地：</span><span style="font-size: 20px">中国 四川 成都</span>
+        </div>
+    </div>
+</div>
+<div class="tab-pane fade in active" id="myshoppingcar">
+    <div style="width: 1250px;height: 1000px;margin: 0 187.5px 0 62.5px">
+        <li style="width: 1250px;height: 100px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">序号</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 100px;float: left;position: relative">
+                <div style="width: 100px;height: 50px;margin: 25px 25px;">
+                    <br>
+                    <span style="font-size: 18px">商品图片</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">商品名称</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">单价</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">数量</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">全部金额</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">卖家ID</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">书本评价</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">操作</span>
+                </div>
+            </div>
+        </li>
+        <li style="width: 1250px;height: 200px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">1</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookboximg">
+                    <img src="img/97875442838300BE9B83.jpg"/>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">假面饭店</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">15.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">2</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">30.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">咕咕咕</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span></span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <a style="font-size: 20px;cursor: pointer;">删除</a>
+                </div>
+            </div>
+        </li>
+        <li style="width: 1250px;height: 200px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">2</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookboximg"><img src="img/97875063666630B44BDB.jpg"></div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">丰乳肥臀</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">16.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">1</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">16.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">咕咕咕</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px"></span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px;cursor: pointer;"><a>删除</a></span>
+                </div>
+            </div>
+        </li>
+        <li style="width: 1250px;height: 200px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">3</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookboximg"><img src="img/978754425399407897B3.jpg"></div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">百年孤独</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">13.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">3</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">39.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">呱呱呱</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px"></span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px;   cursor: pointer;"><a>删除</a></span>
+                </div>
+            </div>
+        </li>
+        <li style="width: 1250px;height: 200px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">4</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookboximg"><div class="shoppingbookboximg"><img src="img/9787550013247093D938.jpg"></div></div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">摆渡人</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">13.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">3</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">39.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">Yi</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px"></span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px;    cursor: pointer;">删除</span>
+                </div>
+            </div>
+        </li>
+        <li style="width: 1250px;height: 200px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">5</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookboximg"><div class="shoppingbookboximg"><img src="img/9787549535620029F2FC.jpg"></div>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">半生记</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">20.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">1</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">20.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">Bollisank</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px"></span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px;    cursor: pointer;">删除</span>
+                </div>
+            </div>
+        </li>
+        <li style="width: 1250px;height: 200px;list-style-type: none;">
+            <div style="width: 125px;height: 100px;float: left;position: relative">
+                <div style="width: 105px;height: 50px;margin: 25px 10px;">
+                    <br>
+                    <span style="font-size: 18px">6</span>
+                </div>
+            </div>
+            <div style="width: 150px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookboximg"><div class="shoppingbookboximg"><img src="img/97875399674480D79DF3.jpg"></div>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">教父</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">25.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">2</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">50.00</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px">平淡</span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px"></span>
+                </div>
+            </div>
+            <div style="width: 125px;height: 200px;float: left;position: relative">
+                <div class="shoppingbookinforbox">
+                    <span style="font-size: 20px;    cursor: pointer;">删除</span>
+                </div>
+            </div>
+        </li>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="seven">
+    <div id="about">
+        <div id="bottomabout">
+            <ul>
+                <li><a>关于UBook</a></li>
+                <li><a>联系我们</a></li>
+                <li><a>网站帮助</a></li>
+                <li><a>版权隐私</a></li>
+                <li><a>广告业务</a></li>
+                <li><a>图书目录</a></li>
+                <li><a>出版物经营许可证</a></li>
+                <li><a>网站地图</a></li>
+            </ul>
+        </div>
+        <div id="bottomafriend">
+            <ul>
+                <li>友情链接：</li>
+                <li><a>当当网</a></li>
+                <li><a>淘宝二手书</a></li>
+                <li><a>亚马逊二手书</a></li>
+                <li><a>京东图书</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

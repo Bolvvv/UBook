@@ -1,0 +1,20 @@
+#log-line{
+     border-bottom:4px solid #000000;
+ }
+#username,#password
+{
+    width:90%;
+    font-size: medium;
+
+}
+#wordofuser,#wordofpass{
+    font-size: 30px;
+}
+#logbutton
+{
+    font-size: 20px;
+    position: relative;
+    margin-left: 50px;
+    height:40px;
+    width:400px;
+}

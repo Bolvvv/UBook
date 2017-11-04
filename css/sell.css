@@ -1,0 +1,103 @@
+.sell-center{
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+    height: 50px;
+    border-top: 2px solid #dedede;
+    border-bottom: 2px solid #dedede;
+    margin-top:50px;
+}
+.sell-center-step{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 50px;
+}
+.sell-center-arrows{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+.sell-center-stepbox{
+    margin: 6px 0;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.sell-center-arrowsbox{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.sell-center-font{
+    font-size: 20px;
+}
+.sell-bookregist{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 900px;
+    height: 700px;  /*暂定*/
+    border-radius: 20px;
+    background-color: #66afe9;
+}
+.sell-bookregisttitle{
+    position: relative;
+    float: left;
+    width: 900px;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+.sell-bookregisttitle-box{
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: auto;
+    height: auto;
+}
+.sell-bookregist-box{
+    position: relative;
+    float: left;
+    width: 900px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.sell-bookphoto{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 900px;
+    height: 900px;  /*暂定*/
+    border-radius: 20px;
+    background-color: #66afe9;
+}
+.sell-photo{
+    position: relative;
+    float: left;
+    width: auto;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.sell-photobox{
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 200px;
+}
+.sell-photobox-up{
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 40px;
+}
+.sell-photobox-down{
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 160px;
+    background-color: #33aab3;
+}
